@@ -55,23 +55,23 @@
 
 
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">HOME<span class="sr-only">(current)</span></a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="about.html">ABOUT</a>
+                <a class="nav-link" href="about.php">ABOUT</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="about.html">PRODUCTS</a>
+                <a class="nav-link" href="about.php">PRODUCTS</a>
               </li>
 
 
               <li class="nav-item">
-                <a class="nav-link" href="product.html">TESTIMONIAL</a>
+                <a class="nav-link" href="product.php">TESTIMONIAL</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="testimonial.html">CONTACT US</a>
+                <a class="nav-link" href="testimonial.php">CONTACT US</a>
 
               </li>
             </ul>
