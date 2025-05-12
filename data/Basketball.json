@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "img": "https://cdn.nba.com/manage/2025/03/tatum-2.jpg",
+    "resultado": "Los Angeles Lakers 108-114 Boston Celtics",
+    "descripcion": "Clásico de la NBA con victoria de los Celtics. Tatum lideró con 37 puntos, mientras que LeBron James anotó 30 puntos para los Lakers."
+  },
+  {
+    "id": 2,
+    "img": "https://cdn.nba.com/manage/2025/05/GettyImages-2212495302-scaled-e1746250308715.jpg",
+    "resultado": "Golden State Warriors 129-118 Phoenix Suns",
+    "descripcion": "Curry brilló con 42 puntos y 8 triples. Durant anotó 35 para los Suns pero no fue suficiente."
+  },
+  {
+    "id": 3,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWByz5qymLjKNZo9o8KYh4YGIxTy3obQ34pQ&s",
+    "resultado": "Milwaukee Bucks 123-120 Philadelphia 76ers",
+    "descripcion": "Gran duelo entre Antetokounmpo (38 pts, 14 reb) y Embiid (41 pts, 12 reb) con victoria final de los Bucks."
+  },
+  {
+    "id": 4,
+    "img": "https://s.hdnux.com/photos/77/31/70/16621078/4/ratio3x2_1920.jpg",
+    "resultado": "Brooklyn Nets 104-112 New York Knicks",
+    "descripcion": "Derby de Nueva York para los Knicks con Jalen Brunson anotando 32 puntos. Spencer Dinwiddie lideró a los Nets con 28."
+  },
+  {
+    "id": 5,
+    "img": "mavericks_heat.jpg",
+    "resultado": "Dallas Mavericks 115-90 Miami Heat",
+    "descripcion": "Luka Doncic consiguió un triple-doble (33 pts, 11 reb, 13 ast) en la contundente victoria de los Mavs sobre el Heat."
+  },
+  {
+    "id": 6,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKMb7V5gOu9tjuR3KnR6lFDYcR2ZQws5yskw&s",
+    "resultado": "Denver Nuggets 118-104 Memphis Grizzlies",
+    "descripcion": "Nikola Jokic dominó con 26 puntos, 19 rebotes y 12 asistencias. Ja Morant anotó 34 puntos para Memphis."
+  },
+  {
+    "id": 7,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH0OYdo_Av8QYLEkwZBgdDUR0ato0HR8KXvg&s",
+    "resultado": "LA Clippers 111-106 Los Angeles Lakers",
+    "descripcion": "Derby de Los Ángeles para los Clippers con 27 puntos de Paul George y 24 de Kawhi Leonard."
+  },
+  {
+    "id": 8,
+    "img": "https://www.cleveland.com/resizer/v2/CQEDT6KEBRBUFIOIUQRNIMLEPE.JPG?auth=4d561785889f4e630d8354a040a3925717c0fe98039b5be1e0e9102530d8f838&width=1280&quality=90",
+    "resultado": "Chicago Bulls 99-108 Cleveland Cavaliers",
+    "descripcion": "Donovan Mitchell lideró a los Cavs con 35 puntos. DeMar DeRozan anotó 29 para los Bulls en la derrota."
+  },
+  {
+    "id": 9,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBHC0ubC8gPauAsYKxFXg4Y2dAVB7XDj7IdA&s",
+    "resultado": "Real Madrid 87-74 FC Barcelona",
+    "descripcion": "El Clásico español de baloncesto para el Madrid con Tavares dominando en la zona (15 pts, 12 reb, 4 blq)."
+  },
+  {
+    "id": 10,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAhqBiW2xneXZX6GQQlBHCZAzP1d-7Ig4JsQ&s",
+    "resultado": "CSKA Moscú 79-78 Olympiacos",
+    "descripcion": "Victoria ajustada en Euroliga para el CSKA con canasta ganadora de Mike James en el último segundo."
+  },
+  {
+    "id": 11,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMxPs9iFxQhJ3JsHOiBSNrWuhKqInKPD5VLw&s",
+    "resultado": "Fenerbahçe 88-83 Anadolu Efes",
+    "descripcion": "Derby turco para el Fenerbahçe en un duelo de Euroliga. De Colo fue el mejor con 22 puntos y 7 asistencias."
+  },
+  {
+    "id": 12,
+    "img": "https://www.mundodeportivo.com/files/og_thumbnail/uploads/2021/08/03/6108e5483ecfb.jpeg",
+    "resultado": "USA 95-81 España",
+    "descripcion": "Final olímpica de baloncesto con victoria de Estados Unidos. Durant brilló con 29 puntos, Ricky Rubio lideró a España con 24."
+  }
+]
