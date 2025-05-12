@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "img": "https://www.reuters.com/resizer/v2/MMDQCZE5ORJFBAVIWXDIVDVFOE.jpg?auth=c32175ed6dca37256d83fd052906040bc5d29f347519c19e7ed5a1c23706e182&width=4184&quality=80",
+    "resultado": "New York Yankees 8-5 Boston Red Sox",
+    "descripcion": "Clásico de la MLB con victoria de los Yankees. Judge conectó 2 jonrones y Cole lanzó 7 entradas permitiendo solo 2 carreras."
+  },
+  {
+    "id": 2,
+    "img": "https://imengine.prod.srp.navigacloud.com/?uuid=7b048b53-91ef-5f78-a4b3-e5b5ec1327a6&type=primary&q=75&width=1024",
+    "resultado": "Los Angeles Dodgers 6-2 San Francisco Giants",
+    "descripcion": "Rivalidad de California con victoria de los Dodgers. Betts conectó un grand slam y Urías lanzó 6 entradas en blanco."
+  },
+  {
+    "id": 3,
+    "img":" https://dims.apnews.com/dims4/default/125b765/2147483647/strip/true/crop/3000x2000+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fafs-prod%2Fmedia%2F336ec1b18470422cb76302bc453d7836%2F3000.jpeg",
+    "resultado": "Chicago Cubs 3-1 St. Louis Cardinals",
+    "descripcion": "Clásico de la División Central de la Liga Nacional. Hendricks dominó desde el montículo y Suzuki conectó el jonrón de la victoria."
+  },
+  {
+    "id": 4,
+    "img": "https://nbcsports.brightspotcdn.com/dims4/default/68c96d5/2147483647/strip/true/crop/3371x1896+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F24%2Fd6%2F0d10bbcc90c08ca83f9005592b28%2Fgettyimages-1414298126-e1660262392879.jpg",
+    "resultado": "Houston Astros 7-3 Texas Rangers",
+    "descripcion": "Derby de Texas para los Astros. Altuve conectó 3 hits y Verlander lanzó 8 entradas con 10 ponches."
+  },
+  {
+    "id": 5,
+    "img": "https://a.espncdn.com/combiner/i?img=/media/motion/2025/0423/ss_20250423_163122693_28427551007/ss_20250423_163122693_28427551007.jpg&cquality=80&h=370&w=655",
+    "resultado": "New York Mets 4-3 Philadelphia Phillies",
+    "descripcion": "Victoria en extra innings para los Mets gracias a un hit de Lindor en la entrada 11. Díaz salvó el juego con 3 ponches."
+  },
+  {
+    "id": 6,
+    "img": "https://images2.minutemediacdn.com/image/upload/c_crop,w_5750,h_3234,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/fastball/01hxz3hfjsv87ryx3gb1.jpg",
+    "resultado": "Toronto Blue Jays 9-2 Baltimore Orioles",
+    "descripcion": "Dominio de los Blue Jays con 3 jonrones del equipo. Guerrero Jr. conectó 2 de ellos y Bichette agregó 4 hits."
+  },
+  {
+    "id": 7,
+    "img": "https://gray-wgcl-prod.gtv-cdn.com/resizer/v2/4EDMYHBLEJAFPHU4VH4U2VCS3U.jpg?auth=c518570e92fe7e8a252c5dc1ae36a5964a12b201a54ebe9af4d19d3b99ea7f86&width=800&height=450&smart=true",
+    "resultado": "Atlanta Braves 5-0 Miami Marlins",
+    "descripcion": "Blanqueada de los Braves con Fried lanzando una joya de 9 entradas. Acuña Jr. conectó jonrón y 2 dobles."
+  },
+  {
+    "id": 8,
+    "img": "https://dims.apnews.com/dims4/default/ccca2a0/2147483647/strip/true/crop/3000x2000+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fafs-prod%2Fmedia%2F0035e211c3d34c69a25ebc8e9a4603cc%2F3000.jpeg",
+    "resultado": "Chicago White Sox 2-3 Cleveland Guardians",
+    "descripcion": "Victoria ajustada para Cleveland con jonrón decisivo de Ramírez en la 9na entrada. Clase consiguió su 30º salvamento."
+  },
+  {
+    "id": 9,
+    "img": "https://www.tsn.ca/polopoly_fs/1.1816444!/fileimage/httpImage/image.jpg_gen/derivatives/landscape_620/san-diego-padres-jorge-alfaro.jpg",
+    "resultado": "San Diego Padres 10-4 Arizona Diamondbacks",
+    "descripcion": "Gran ofensiva de los Padres con Machado y Tatis Jr. conectando jonrones. Darvish sumó 11 ponches en 7 entradas."
+  },
+  {
+    "id": 10,
+    "img": "https://cdn.vox-cdn.com/thumbor/m4AVU3pI-J8CMowmUSi6fyypWyw=/0x0:3967x2890/1200x800/filters:focal(1570x388:2204x1022)/cdn.vox-cdn.com/uploads/chorus_image/image/64788579/usa_today_13084352.0.jpg",
+    "resultado": "Milwaukee Brewers 6-5 Cincinnati Reds" ,
+    "descripcion": "Remontada de los Brewers en la 9na entrada con doble de Yelich que impulsó 2 carreras para la victoria."
+  }
+]

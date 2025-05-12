@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "img": "https://forbes.es/wp-content/uploads/2024/07/Kylian-Mbappe-florentino-perez.jpg",
+    "resultado": "Kylian Mbappé ficha por el Real Madrid",
+    "descripcion": "El delantero francés Kylian Mbappé ha sido presentado oficialmente como nuevo jugador del Real Madrid tras finalizar su contrato con el PSG. El acuerdo es por 5 temporadas y vestirá la camiseta número 10."
+  },
+  {
+    "id": 2,
+    "img": "https://unionradio.net/wp-content/uploads/2025/05/Stephen-Curry.jpg",
+    "resultado": "Stephen Curry se perderá 4 semanas por lesión",
+    "descripcion": "El base estrella de los Golden State Warriors sufrió un esguince en el tobillo derecho durante el partido contra los Lakers. Las pruebas médicas confirman que estará de baja aproximadamente un mes."
+  },
+  {
+    "id": 3,
+    "img": "https://s1.elespanol.com/2023/03/22/deportes/futbol/internacional/750435322_231842217_1024x576.jpg",
+    "resultado": "La Juventus regresa a Champions League tras sanción",
+    "descripcion": "El Tribunal de Arbitraje Deportivo ha anulado la sanción que impedía a la Juventus participar en competiciones europeas. El club italiano volverá a la máxima competición continental la próxima temporada."
+  },
+  {
+    "id": 4,
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/cnne-293918-fbl-copam2016-arg-pan.jpg?c=16x9&q=h_833,w_1480,c_fill",
+    "resultado": "Lionel Messi anuncia su retiro de la selección argentina",
+    "descripcion": "El capitán de la albiceleste ha comunicado que el próximo partido amistoso contra Brasil será su último con la camiseta nacional. Messi se retira tras conquistar la Copa América y el Mundial de Qatar."
+  },
+  {
+    "id": 5,
+    "img": "https://www.wfla.com/wp-content/uploads/sites/71/2024/09/AP24252728853849.jpg?w=2560&h=1440&crop=1",
+    "resultado": "Tom Brady debuta como comentarista en FOX con récord de audiencia",
+    "descripcion": "El legendario quarterback ha comenzado su carrera como analista en la cadena FOX con el partido Chiefs vs Bills. Su debut ha registrado la mayor audiencia para un partido de temporada regular en la última década."
+  },
+  {
+    "id": 6,
+    "img": "https://www.atptour.com/-/media/2024-images/news/2025/04/17/16/57/nadal-rg-homenaje-2025.jpg",
+    "resultado": "Rafael Nadal anuncia que Roland Garros 2025 será su último torneo",
+    "descripcion": "El tenista español ha confirmado que se retirará después de participar por última vez en el Grand Slam parisino donde ha ganado 14 títulos. Nadal busca su decimoquinto trofeo como despedida."
+  },
+  {
+    "id": 8,
+    "img": "https://media.rpctv.com/p/aaf757807e30f7473b6fdedaa2bdba07/adjuntos/314/imagenes/010/834/0010834544/lewandowski-bate-el-record-goles-gerd-muller-cierre-la-bundesliga.jpg",
+    "resultado": "Lewandowski bate el récord histórico de goles en una temporada de La Liga",
+    "descripcion": "El delantero polaco del Barcelona ha marcado su gol número 39 en la liga, superando el récord de Messi de 38 goles en una sola temporada. Aún quedan tres jornadas para finalizar el campeonato."
+  }
+]
