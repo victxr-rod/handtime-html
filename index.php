@@ -325,7 +325,7 @@
         <div class="carousel">
           <?php
 
-          renderizarResultados("data/Futbol.json");
+          renderizarResultados("data/JsonIndex/Futbol.json");
           ?>
 
         </div>
@@ -337,7 +337,7 @@
         <div class="carousel">
           <?php
 
-          renderizarResultados("data/Basketball.json");
+          renderizarResultados("data/JsonIndex/Basketball.json");
           ?>
 
         </div>
@@ -348,7 +348,7 @@
         <div class="carousel">
           <?php
 
-          renderizarResultados("data/Baseball.json");
+          renderizarResultados("data/JsonIndex/Baseball.json");
           ?>
 
         </div>
@@ -376,7 +376,7 @@
         <div class="carousel">
           <?php
 
-          renderizarResultados("data/UltimaHora.json");
+          renderizarResultados("data/JsonIndex/UltimaHora.json");
           ?>
 
         </div>
@@ -401,7 +401,7 @@
         <div class="carousel">
           <?php
 
-          renderizarApuestasDeportivas("data/apuestasDeportivas.json");
+          renderizarApuestasDeportivas("data/JsonIndex/apuestasDeportivas.json");
           ?>
         </div>
       </div>
