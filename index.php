@@ -46,7 +46,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <span>
               Gambling&sports
             </span>
@@ -62,23 +62,23 @@
 
 
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.php">About</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="about.html">Products</a>
+                <a class="nav-link" href="product.php">Products</a>
               </li>
 
 
               <li class="nav-item">
-                <a class="nav-link" href="product.html">Testimonial</a>
+                <a class="nav-link" href="testimonial.php">Testimonial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="testimonial.html">Contact us</a>
+                <a class="nav-link" href="contact.php">Contact us</a>
 
               </li>
             </ul>
@@ -411,26 +411,6 @@
     </div>
   </section>
 
-
-  <!-- SECCION DE NOTICIAS-->
-  <!-- <section class="seccion-resultados" id="noticiasDestacadas">
-    <div class="container">
-      <div class="product_heading">
-        <h2> Noticas Destacadas</h2>
-      </div>
-
-      <div class="product_container-list">
-        
-          <?php
-          // Mostrar productos desde futbol.json
-          //renderizarNoticias("data/UltimaHora.json"); 
-          ?>
-      </div>
-
-
-
-    </div>
-  </section> -->
 
 
   <section class="client_section layout_padding">
