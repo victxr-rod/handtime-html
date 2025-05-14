@@ -11,7 +11,7 @@ function renderizarResultados($futbolJSON)
 
 
 
-          <a href="https://www.google.com/">
+          <a href="Informacion.php">
             <div class="box">
               <div class="box-content">
                 <div class="img-box">
