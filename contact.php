@@ -41,7 +41,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.php">
             <span>
-              HandTime
+              Gambling&sports
             </span>
           </a>
 
@@ -55,23 +55,23 @@
 
 
               <li class="nav-item active">
-                <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="about.php">About</a>
+                <a class="nav-link" href="about.php">Sobre nosotros</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="product.php">Products</a>
+                <a class="nav-link" href="product.php">Productos</a>
               </li>
 
 
               <li class="nav-item">
-                <a class="nav-link" href="testimonial.php">Testimonial</a>
+                <a class="nav-link" href="testimonial.php">Comentarios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.php">Contact us</a>
+                <a class="nav-link" href="contact.php">Contactanos</a>
 
               </li>
             </ul>
@@ -148,7 +148,7 @@
         <div class="col-md-3">
           <div class="info_contact">
             <h5>
-              About Shop
+              Sobre la tienda
             </h5>
             <div>
               <div class="img-box">
@@ -192,44 +192,8 @@
                 <div class="col-4 px-0">
                   <a href="">
                     <div class="insta-box b-1">
-                      <img src="images/w1.png" alt="">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9m9M94Mz4g3N4nqdMadwqNYD_LgBiA6WmMw&s" alt="">
                     </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w2.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w3.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w4.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w5.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w6.png" alt="">
-                    </div>
-                  </a>
                 </div>
               </div>
             </div>
