@@ -55,23 +55,23 @@
 
 
               <li class="nav-item active">
-                <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="about.php">About</a>
+                <a class="nav-link" href="about.php">Sobre nosotros</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="product.php">Products</a>
+                <a class="nav-link" href="product.php">Productos</a>
               </li>
 
 
               <li class="nav-item">
-                <a class="nav-link" href="testimonial.php">Testimonial</a>
+                <a class="nav-link" href="testimonial.php">Comentarios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.php">Contact us</a>
+                <a class="nav-link" href="contact.php">Contactanos</a>
 
               </li>
             </ul>
@@ -88,12 +88,50 @@
     <!-- end header section -->
   </div>
 
+<section class="client_section layout_padding">
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h2>Dejanos tu opinión</h2>
+      <p>Queremos saber qué opinas sobre nuestra página y nuestros productos.</p>
+    </div>
+    <div class="feedback_form_container">
+      <form action="submit_feedback.php" method="POST">
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="Ingresa tu nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Ingresa tu correo" required>
+        </div>
+        <div class="form-group">
+          <label for="opinion">Tu Opinión:</label>
+          <textarea id="opinion" name="opinion" class="form-control" rows="4" placeholder="¿Qué te pareció nuestra página y productos?" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="rating">Calificación:</label>
+          <select id="rating" name="rating" class="form-control">
+            <option value="5">Excelente</option>
+            <option value="4">Muy Bueno</option>
+            <option value="3">Bueno</option>
+            <option value="2">Regular</option>
+            <option value="1">Malo</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn">Enviar Opinión</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
   <!-- client section -->
   <section class="client_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Testimonos.
+          <br><br><br><br>Testimonos.
         </h2>
       </div>
     </div>
@@ -207,7 +245,7 @@
     <div class="container">
       <div class="info_logo">
         <h2>
-          HandTime
+          Información
         </h2>
       </div>
       <div class="row">
@@ -215,14 +253,14 @@
         <div class="col-md-3">
           <div class="info_contact">
             <h5>
-              About Shop
+              Sobre la tienda
             </h5>
             <div>
               <div class="img-box">
                 <img src="images/location-white.png" width="18px" alt="">
               </div>
               <p>
-                San miguelito
+                San Miguelito
               </p>
             </div>
             <div>
@@ -230,7 +268,7 @@
                 <img src="images/telephone-white.png" width="12px" alt="">
               </div>
               <p>
-                +01 1234567890
+                +507 63874291
               </p>
             </div>
             <div>
@@ -238,7 +276,7 @@
                 <img src="images/envelope-white.png" width="18px" alt="">
               </div>
               <p>
-                demo@gmail.com
+                Javier.reyes2@utp.ac.pa
               </p>
             </div>
           </div>
@@ -259,44 +297,8 @@
                 <div class="col-4 px-0">
                   <a href="">
                     <div class="insta-box b-1">
-                      <img src="images/w1.png" alt="">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9m9M94Mz4g3N4nqdMadwqNYD_LgBiA6WmMw&s" alt="">
                     </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w2.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w3.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w4.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w5.png" alt="">
-                    </div>
-                  </a>
-                </div>
-                <div class="col-4 px-0">
-                  <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w6.png" alt="">
-                    </div>
-                  </a>
                 </div>
               </div>
             </div>
@@ -306,12 +308,12 @@
         <div class="col-md-3">
           <div class="info_form ">
             <h5>
-              Newsletter
+              Escribenos!
             </h5>
             <form action="">
-              <input type="email" placeholder="Enter your email">
+              <input type="email" placeholder="Ingrese su correo">
               <button>
-                Subscribe
+                Suscribete
               </button>
             </form>
             <div class="social_box">

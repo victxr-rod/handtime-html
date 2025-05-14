@@ -390,7 +390,9 @@ a:focus {
         text-transform: uppercase;
       }
 
-      p {}
+      p {
+        color: #000000;
+      }
 
       a {
         color: $primary2;

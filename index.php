@@ -62,23 +62,23 @@
 
 
               <li class="nav-item active">
-                <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="about.php">About</a>
+                <a class="nav-link" href="about.php">Sobre nosotros</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="product.php">Products</a>
+                <a class="nav-link" href="product.php">Productos</a>
               </li>
 
 
               <li class="nav-item">
-                <a class="nav-link" href="testimonial.php">Testimonial</a>
+                <a class="nav-link" href="testimonial.php">Comentarios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.php">Contact us</a>
+                <a class="nav-link" href="contact.php">Contactanos</a>
 
               </li>
             </ul>
@@ -114,10 +114,10 @@
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
-                        Contact Us
+                        Contactanos
                       </a>
                       <a href="" class="btn2">
-                        About Us
+                        Sobre nosotros
                       </a>
                     </div>
                   </div>
