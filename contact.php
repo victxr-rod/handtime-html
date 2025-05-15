@@ -27,6 +27,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/menu.css" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
@@ -34,59 +35,23 @@
 
 <body class="sub_page">
 
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.php">
-            <span>
-              Gambling&sports
-            </span>
-          </a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  ">
-
-
-              <li class="nav-item active">
-                <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="about.php">Sobre nosotros</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="product.php">Productos</a>
-              </li>
-
-
-              <li class="nav-item">
-                <a class="nav-link" href="testimonial.php">Comentarios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.php">Contactanos</a>
-
-              </li>
-            </ul>
-            <div class="user_optio_box">
-              <a href="https://www.google.com/">
-                <i class="fa fa-user" aria-hidden="true"></i>
-              </a>
-
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
-  </div>
+   <header class="navbar">
+    <div class="logo">
+      <span class="logo-icon">👜</span>
+      <span class="logo-text">SportZone</span>
+    </div>
+    <nav class="menu">
+      <a href="index.php">Inicio</a>
+      <a href="product.php">Productos</a>
+      <a href="#">Deportes</a>
+      <a href="contact.php">Contacto</a>
+      <a href="testimonial.php">Testimonios</a>
+    </nav>
+    <div class="acciones">
+      <button class="btn btn-outline">Iniciar Sesión</button>
+      <button class="btn btn-black">Comprar Ahora</button>
+    </div>
+  </header>
 
 
 

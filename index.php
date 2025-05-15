@@ -1,6 +1,5 @@
 <?php include 'cargarDatos.php';
 
-
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +17,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>GamblingSports.com</title>
+  <title>SportZone</title>
 
 
   <!-- bootstrap core css -->
@@ -32,6 +31,8 @@
 
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/menu.css"/>
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,276 +42,56 @@
 
 <body>
 
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.php">
-            <span>
-              Gambling&sports
-            </span>
-          </a>
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-icon">👜</span>
+      <span class="logo-text">SportZone</span>
+    </div>
+    <nav class="menu">
+      <a href="index.php">Inicio</a>
+      <a href="product.php">Productos</a>
+      <a href="#">Deportes</a>
+      <a href="contact.php">Contacto</a>
+      <a href="testimonial.php">Testimonios</a>
+    </nav>
+    <div class="acciones">
+      <button class="btn btn-outline">Iniciar Sesión</button>
+      <button class="btn btn-black">Comprar Ahora</button>
+    </div>
+  </header>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  ">
-
-
-              <li class="nav-item active">
-                <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="about.php">Sobre nosotros</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="product.php">Productos</a>
-              </li>
-
-
-              <li class="nav-item">
-                <a class="nav-link" href="testimonial.php">Comentarios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.php">Contactanos</a>
-
-              </li>
-            </ul>
-            <div class="user_optio_box">
-              <a href="https://www.google.com/">
-                <i class="fa fa-user" aria-hidden="true"></i>
-              </a>
-
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
-    <!-- slider section -->
-    <section class="slider_section ">
-      <div class="slider_bg_box">
-        <video src="https://videos.pexels.com/video-files/6777263/6777263-uhd_2732_1440_25fps.mp4" loop autoplay
-          muted></video>
-      </div>
-      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7">
-                  <div class="detail-box">
-                    <h1>
-                      G&SPorts
-                    </h1>
-                    <p>
-                      Las mejores noticias deportivas
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn1">
-                        Contactanos
-                      </a>
-                      <a href="" class="btn2">
-                        Sobre nosotros
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7">
-                  <div class="detail-box">
-                    <h1>
-                      G&SPorts
-                    </h1>
-                    <p>
-                      Enterate de todas las noticias deportivas aquí
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn1">
-                        Contact Us
-                      </a>
-                      <a href="" class="btn2">
-                        About Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7">
-                  <div class="detail-box">
-                    <h1>
-                      G&SPorts
-                    </h1>
-                    <p>
-                      Enterate de los porcentajes de apuestas antes que cualquiera
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn1">
-                        Contact Us
-                      </a>
-                      <a href="" class="btn2">
-                        About Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7">
-                  <div class="detail-box">
-                    <h1>
-                      G&SPorts
-                    </h1>
-                    <p>
-                      ya no se que colocar aquí
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn1">
-                        Contact Us
-                      </a>
-                      <a href="" class="btn2">
-                        About Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7">
-                  <div class="detail-box">
-                    <h1>
-                      G&SPorts
-                    </h1>
-                    <p>
-                      El deporte que buscas aquí
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn1">
-                        Contact Us
-                      </a>
-                      <a href="" class="btn2">
-                        About Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-    <!-- end slider section -->
-  </div>
-
-
-  <!-- service section -->
-
-  <section class="service_section">
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 col-lg-3">
-          <div class="box ">
-            <div class="img-box">
-              <img src="https://cdn.worldvectorlogo.com/logos/uefa-champions-league-1.svg" alt="">
-            </div>
-            <div class="detail-box">
-
-              <a href="https://www.google.com/">
-
-                <h5>
-                  UEFA <br>CHAMPIONS LEAGUE
-                </h5>
-              </a>
-
-
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="box ">
-            <div class="img-box">
-              <img
-                src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/nba-logo-design-template-84ea26dc6256bc0ceed9603b95ba6ab9_screen.jpg?ts=1684801676"
-                alt="">
-            </div>
-            <div class="detail-box">
-              <a href="https://www.google.com/">
-
-                <h5>
-                  NBA
-                </h5>
-              </a>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="box ">
-            <div class="img-box">
-              <img src="https://1000marcas.net/wp-content/uploads/2020/03/logo-NFL.png" alt="">
-            </div>
-            <div class="detail-box">
-              <a href="https://www.google.com/">
-
-                <h5>
-                  NFL
-                </h5>
-              </a>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="box ">
-            <div class="img-box">
-              <img src="https://images.seeklogo.com/logo-png/25/1/mlb-logo-png_seeklogo-250501.png" alt="">
-            </div>
-            <div class="detail-box">
-              <a href="https://www.google.com/">
-
-                <h5>
-                  MLB
-                </h5>
-              </a>
-
-            </div>
-          </div>
-        </div>
+  <!-- HERO SECTION -->
+ <section class="hero">
+    <div class="hero-content">
+      <h1>Equípate para la victoria</h1>
+      <p>Todo lo que necesitas para destacar en tu deporte favorito.<br>
+      Equipamiento profesional, ropa deportiva y accesorios.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-black" onclick="window.location.href='product.php'">Ver Catálogo</button>
+        <button class="btn btn-outline" onclick="window.location.href='product.php'">Ofertas Especiales</button>
       </div>
     </div>
   </section>
 
-
-  <!-- end service section -->
-
+  <div class="container">
+        <section class="about-section">
+            <div class="about-content">
+                <h1>Sobre SportZone</h1>
+                <p>SportZone es tu destino completo para todo lo relacionado con deportes. Ofrecemos una amplia gama de productos deportivos de alta calidad, desde equipamiento profesional hasta ropa y accesorios para todos los niveles.</p>
+                <p>Además de nuestra tienda, somos apasionados por los deportes y te mantenemos informado con los últimos resultados, noticias y eventos para que nunca te pierdas nada importante en el mundo deportivo.</p>
+                
+                <div class="divider"></div>
+                
+            </div>
+            
+            <div class="about-images">
+                <img src="https://th.bing.com/th/id/R.d183820cf0b0b5248e32fdcae6123def?rik=jKG%2bCGG%2fKUrxqQ&riu=http%3a%2f%2fimg.staticdj.com%2f70d6306889c3cec8e80f4560a52c0271.jpg&ehk=7tgdnoM%2bOH6NXfzCEa%2bozmPGlrZ6%2bwBOVkk8jNLONBU%3d&risl=&pid=ImgRaw&r=0" alt="Equipamiento deportivo">
+                <img src="https://fansedge.frgimages.com/FFImage/thumb.aspx?i=/productImages/_491000/ff_491925_full.jpg" alt="Ropa deportiva">
+                <img src="https://media.futbolmania.com/media/catalog/product/cache/1/9df78eab33525d08d6e5fb8d27136e95/D/N/DN3611-379_espinilleras-color-verde-nike-mercurial-lite_1_completa-frontal.jpg" alt="Accesorios">
+                <img src="https://i.ytimg.com/vi/raVaNYpuGss/hq720.jpg" alt="Eventos deportivos">
+            </div>
+        </section>
+    </div>
 
   <!-- SECCION DE NOTICIAS -->
 
@@ -406,164 +187,11 @@
         </div>
       </div>
 
-
-
     </div>
   </section>
 
 
-
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Comentarios.
-        </h2>
-      </div>
-    </div>
-    <div id="customCarousel2" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="https://i.pinimg.com/736x/1c/b1/63/1cb163a977f7fd14411b3137cbac2f2d.jpg" alt="">
-                  </div>
-                  <div class="detail-box">
-                    <div class="client_info">
-                      <div class="client_name">
-                        <h5>
-                          Love sosa
-                        </h5>
-                        <h6>
-                          Customer
-                        </h6>
-                      </div>
-                      <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    </div>
-                    <p>
-                      "¡Qué golazo!", "Es una lástima que no hayan ganado"
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="https://i.pinimg.com/736x/5b/eb/02/5beb02767f8b32efdab4a2a22c213c69.jpg" alt="">
-                  </div>
-                  <div class="detail-box">
-                    <div class="client_info">
-                      <div class="client_name">
-                        <h5>
-                          Mariano rivera.
-                        </h5>
-                        <h6>
-                          Customer
-                        </h6>
-                      </div>
-                      <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    </div>
-                    <p>
-                      El jugador X no está en su mejor forma", "La estrategia del entrenador no funcionó".
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="https://i.pinimg.com/736x/d4/c8/f2/d4c8f23efcc3ba17ec281d3fbe110639.jpg" alt="">
-                  </div>
-                  <div class="detail-box">
-                    <div class="client_info">
-                      <div class="client_name">
-                        <h5>
-                          Hector Casagrande
-                        </h5>
-                        <h6>
-                          Customer
-                        </h6>
-                      </div>
-                      <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    </div>
-                    <p>
-                      LA MEJOR PAGINA DE DEPORTES!
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-    </div>
-
-
-  </section>
-
-
-
-
-  <!-- end client section -->
-  <section class="contact_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Contact Us
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form_container">
-            <form action="">
-              <div>
-                <input type="text" placeholder="Your Name" />
-              </div>
-              <div>
-                <input type="text" placeholder="Phone Number" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="btn_box">
-                <button>
-                  SEND
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6 ">
-          <div class="map_container">
-            <div class="map">
-              <div id="googleMap"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <!-- info section -->
   <section class="info_section layout_padding2">
