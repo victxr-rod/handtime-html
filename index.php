@@ -6,12 +6,9 @@
 <html>
 
 <head>
-  <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
   <link rel="icon" href="images/fevicon/fevicon.png" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
@@ -19,20 +16,16 @@
 
   <title>SportZone</title>
 
-
-  <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-  <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/index.css" />
-  <link rel="stylesheet" href="css/menu.css"/>
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="css/indexMain.css">
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,17 +48,16 @@
       <a href="testimonial.php">Testimonios</a>
     </nav>
     <div class="acciones">
-      <button class="btn btn-outline">Iniciar Sesión</button>
-      <button class="btn btn-black">Comprar Ahora</button>
+      <button class="btn btn-black" onclick="window.location.href='html/login.html'">Iniciar sesion</button>
     </div>
   </header>
 
   <!-- HERO SECTION -->
- <section class="hero">
+  <section class="hero">
     <div class="hero-content">
       <h1>Equípate para la victoria</h1>
       <p>Todo lo que necesitas para destacar en tu deporte favorito.<br>
-      Equipamiento profesional, ropa deportiva y accesorios.</p>
+        Equipamiento profesional, ropa deportiva y accesorios.</p>
       <div class="hero-buttons">
         <button class="btn btn-black" onclick="window.location.href='product.php'">Ver Catálogo</button>
         <button class="btn btn-outline" onclick="window.location.href='product.php'">Ofertas Especiales</button>
@@ -73,125 +65,178 @@
     </div>
   </section>
 
-  <div class="container">
-        <section class="about-section">
-            <div class="about-content">
-                <h1>Sobre SportZone</h1>
-                <p>SportZone es tu destino completo para todo lo relacionado con deportes. Ofrecemos una amplia gama de productos deportivos de alta calidad, desde equipamiento profesional hasta ropa y accesorios para todos los niveles.</p>
-                <p>Además de nuestra tienda, somos apasionados por los deportes y te mantenemos informado con los últimos resultados, noticias y eventos para que nunca te pierdas nada importante en el mundo deportivo.</p>
-                
-                <div class="divider"></div>
-                
+  <section class="about">
+    <div class="container">
+      <div class="about-content">
+        <h2 class="section-title">Sobre SportZone</h2>
+        <p class="about-text">
+          SportZone es tu destino completo para todo lo relacionado con deportes. Ofrecemos una amplia gama de
+          productos deportivos de alta calidad, desde equipamiento profesional hasta ropa y accesorios para
+          todos los niveles.
+        </p>
+        <p class="about-text">
+          Además de nuestra tienda, somos apasionados por los deportes y te mantenemos informado con los últimos
+          resultados, noticias y eventos para que nunca te pierdas nada importante en el mundo deportivo.
+        </p>
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="about-feature-icon blue">
+              <i class="fas fa-bullseye"></i>
             </div>
-            
-            <div class="about-images">
-                <img src="https://th.bing.com/th/id/R.d183820cf0b0b5248e32fdcae6123def?rik=jKG%2bCGG%2fKUrxqQ&riu=http%3a%2f%2fimg.staticdj.com%2f70d6306889c3cec8e80f4560a52c0271.jpg&ehk=7tgdnoM%2bOH6NXfzCEa%2bozmPGlrZ6%2bwBOVkk8jNLONBU%3d&risl=&pid=ImgRaw&r=0" alt="Equipamiento deportivo">
-                <img src="https://fansedge.frgimages.com/FFImage/thumb.aspx?i=/productImages/_491000/ff_491925_full.jpg" alt="Ropa deportiva">
-                <img src="https://media.futbolmania.com/media/catalog/product/cache/1/9df78eab33525d08d6e5fb8d27136e95/D/N/DN3611-379_espinilleras-color-verde-nike-mercurial-lite_1_completa-frontal.jpg" alt="Accesorios">
-                <img src="https://i.ytimg.com/vi/raVaNYpuGss/hq720.jpg" alt="Eventos deportivos">
+            <h3>Calidad Premium</h3>
+            <p>Productos de las mejores marcas deportivas</p>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon green">
+              <i class="fas fa-users"></i>
             </div>
-        </section>
+            <h3>Comunidad</h3>
+            <p>Una comunidad apasionada por el deporte</p>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon orange">
+              <i class="fas fa-medal"></i>
+            </div>
+            <h3>Experiencia</h3>
+            <p>Años de experiencia en el sector deportivo</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-  <!-- SECCION DE NOTICIAS -->
-
-  <section class="seccion-resultados">
+ 
+  <section class="features">
     <div class="container">
-      <div class="product_heading">
-        <h2>Resultados</h2>
+      <div class="section-header">
+        <h2 class="section-title">¿Qué puedes hacer en SportZone?</h2>
+        <p class="section-description">
+          Descubre todas las funcionalidades que tenemos para ofrecerte en tu experiencia deportiva
+        </p>
       </div>
-
-
-      <div class="product_container">
-        <div class="carousel">
-          <?php
-
-          renderizarResultados("data/JsonIndex/Futbol.json");
-          ?>
-
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon blue">
+            <i class="fas fa-shopping-bag"></i>
+          </div>
+          <h3>Comprar Productos</h3>
+          <p>Amplia gama de productos deportivos de alta calidad, desde equipamiento profesional hasta ropa y accesorios.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon green">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3>Resultados Deportivos</h3>
+          <p>Mantente al día con los últimos resultados de tus deportes favoritos en tiempo real.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon orange">
+            <i class="fas fa-newspaper"></i>
+          </div>
+          <h3>Noticias Deportivas</h3>
+          <p>Las últimas noticias y eventos del mundo deportivo para que nunca te pierdas nada importante.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon purple">
+            <i class="fas fa-comments"></i>
+          </div>
+          <h3>Testimonios</h3>
+          <p>Comparte tu experiencia y lee las opiniones de otros deportistas de nuestra comunidad.</p>
         </div>
       </div>
-
-
-      <!-- BASKUETBALL-->
-      <div class="product_container">
-        <div class="carousel">
-          <?php
-
-          renderizarResultados("data/JsonIndex/Basketball.json");
-          ?>
-
-        </div>
-      </div>
-
-      <!-- BASEBALL-->
-      <div class="product_container">
-        <div class="carousel">
-          <?php
-
-          renderizarResultados("data/JsonIndex/Baseball.json");
-          ?>
-
-        </div>
-      </div>
-
-
-
-
     </div>
   </section>
 
 
-
-
-  <!-- SECCION DE ULTIMA HORA-->
-  <section class="seccion-resultados">
+  <section id="testimonios" class="testimonials">
     <div class="container">
-
-      <div class="product_heading">
-        <div class="red"></div>
-        <h2>Última Hora</h2>
-
+      <div class="section-header">
+        <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+        <p class="section-description">
+          Testimonios reales de deportistas que confían en SportZone
+        </p>
       </div>
-      <div class="product_container">
-        <div class="carousel">
-          <?php
-
-          renderizarResultados("data/JsonIndex/UltimaHora.json");
-          ?>
-
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">M</div>
+            <div class="testimonial-info">
+              <h4>María González</h4>
+              <p>Running</p>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Excelente calidad en todos sus productos. Mi equipo de running ha mejorado considerablemente."</p>
+          </div>
         </div>
-
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">C</div>
+            <div class="testimonial-info">
+              <h4>Carlos Rodríguez</h4>
+              <p>Fútbol</p>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Gran variedad de productos y precios competitivos. Siempre encuentro lo que necesito."</p>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">A</div>
+            <div class="testimonial-info">
+              <h4>Ana Martínez</h4>
+              <p>Tenis</p>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"El servicio al cliente es excepcional. Me ayudaron a elegir la raqueta perfecta."</p>
+          </div>
+        </div>
       </div>
-    </div>
-
-
+      <div class="testimonials-cta">
+        <button class="btn btn-outline btn-lg" onclick="window.location.href='testimonial.php'">
+          <i class="fas fa-comments"></i>
+          Deja tu testimonio
+        </button>
+      </div>
     </div>
   </section>
 
-
-
-  <!--  SECCION DE APUESTAS Y PRONOSTICOS-->
-  <section class="seccion-resultados">
+  <!-- CTA Section -->
+  <section class="cta">
     <div class="container">
-      <div class="product_heading">
-        <div class="green"></div>
-        <h2>Apuestas y Pronosticos</h2>
-      </div>
-      <div class="product_container">
-        <div class="carousel">
-          <?php
-
-          renderizarApuestasDeportivas("data/JsonIndex/apuestasDeportivas.json");
-          ?>
+      <div class="cta-content">
+        <h2>¿Listo para comenzar tu aventura deportiva?</h2>
+        <p>Únete a miles de deportistas que ya confían en SportZone para alcanzar sus metas</p>
+        <div class="cta-buttons">
+          <button class="btn btn-secondary btn-lg">Explorar Productos</button>
+          <button class="btn btn-outline-white btn-lg">Crear Cuenta Gratis</button>
         </div>
       </div>
-
     </div>
   </section>
-
-
-  
 
   <!-- info section -->
   <section class="info_section layout_padding2">

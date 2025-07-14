@@ -9,8 +9,6 @@ function renderizarResultados($futbolJSON)
   foreach ($products as $product) {
     echo '
 
-
-
           <a href="Informacion.php">
             <div class="box">
               <div class="box-content">
@@ -22,7 +20,7 @@ function renderizarResultados($futbolJSON)
                 <div class="detail-box">
                   <div class="text">
                     <p>' . $product['resultado'] . '</p>
-                    <h5>' . date("d/m/Y").'<br>'  . $product['descripcion'] . '</h5>
+                    <h5>' . date("d/m/Y") . '<br>'  . $product['descripcion'] . '</h5>
                   </div>
                 </div>
               </div>
@@ -59,7 +57,7 @@ function renderizarApuestasDeportivas($apuestas)
                   <div class="text">
                     <p>' . $info['evento'] . '</p>
                     <p>' . $info['competicion'] . $info['fecha'] . '</p>
-                    <h5>' . date("d/m/Y").'<br>' .$info['descripcion'] . '</h5>
+                    <h5>' . date("d/m/Y") . '<br>' . $info['descripcion'] . '</h5>
                     
                   </div>
 
@@ -99,7 +97,7 @@ function renderizarNoticias($noticias)
           
                         <h5> ⁋ ' . $info['descripcion'] . ' </h5>
                         <br>
-                        <h5>' . date("d/m/Y") .'</h5>
+                        <h5>' . date("d/m/Y") . '</h5>
                       </div>
                     </div>
 
@@ -111,7 +109,3 @@ function renderizarNoticias($noticias)
         ';
   }
 }
-
-?>
-
-

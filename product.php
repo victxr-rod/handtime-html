@@ -50,7 +50,6 @@
     </nav>
     <div class="acciones">
       <button class="btn btn-outline">Iniciar Sesión</button>
-      <button class="btn btn-black">Comprar Ahora</button>
     </div>
   </header>
 
