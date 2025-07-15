@@ -60,7 +60,6 @@
         Equipamiento profesional, ropa deportiva y accesorios.</p>
       <div class="hero-buttons">
         <button class="btn btn-black" onclick="window.location.href='product.php'">Ver Catálogo</button>
-        <button class="btn btn-outline" onclick="window.location.href='product.php'">Ofertas Especiales</button>
       </div>
     </div>
   </section>

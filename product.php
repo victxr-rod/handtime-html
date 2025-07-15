@@ -1,129 +1,258 @@
+<?php
+require_once './logica/ConexionBd.php';
+require_once './logica/ProductoController.php';
 
+$productoController = new ProductoController();
+
+$categoria_id = isset($_GET['categoria']) && is_numeric($_GET['categoria'])
+  ? (int)$_GET['categoria']
+  : 0;
+
+$productos = $productoController->obtenerProductos($categoria_id);
+$categorias = $productoController->obtenerCategorias();
+?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <link rel="icon" href="images/fevicon/fevicon.png" type="image/gif" />
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Productos - SportZone</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/menu.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  <title>HandTime</title>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
+    }
 
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?q=80&w=1307&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      margin-bottom: 2rem;
+    }
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    .hero-content h1 {
+      font-size: 2.5rem;
+      font-weight: 300;
+      margin-bottom: 0.5rem;
+    }
 
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+    .hero-content p {
+      font-size: 1rem;
+      font-weight: 300;
+    }
 
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <link rel="stylesheet"  href="css/productos.css" />
-  <link rel="stylesheet" href="css/menu.css" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
 
+    .filter-section,
+    .products-section {
+      margin-bottom: 2rem;
+    }
+
+    .filter-section {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      background: #fff;
+      text-align: center;
+    }
+
+    .filter-label {
+      font-weight: 400;
+      margin-right: 1rem;
+    }
+
+    .filter-select {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      background: #fff;
+      color: #111;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #111;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .product-card {
+      border: 1px solid #ddd;
+      background: #fff;
+      padding: 1rem;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .product-title {
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+    }
+
+    .product-price {
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .product-stock {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+
+    .stock-low {
+      color: #000;
+      font-weight: bold;
+    }
+
+    .category-tag {
+      display: inline-block;
+      border: 1px solid #ccc;
+      padding: 0.3rem 0.6rem;
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .add-to-cart {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #000;
+      background: #000;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .add-to-cart:hover {
+      background: #111;
+    }
+
+    .no-products {
+      text-align: center;
+      color: #666;
+      padding: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero-content h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
 </head>
 
-<body class="sub_page">
+<body>
 
   <header class="navbar">
     <div class="logo">
-      <span class="logo-icon">👜</span>
+      <span class="logo-icon"></span>
       <span class="logo-text">SportZone</span>
     </div>
     <nav class="menu">
       <a href="index.php">Inicio</a>
       <a href="product.php">Productos</a>
       <a href="#">Deportes</a>
-      <a href="contact.php">Contact</a>
+      <a href="contact.php">Contacto</a>
       <a href="testimonial.php">Testimonios</a>
     </nav>
     <div class="acciones">
       <button class="btn btn-outline">Iniciar Sesión</button>
+
     </div>
   </header>
 
-  <div class="hero-banner">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <h1>Equipamiento Deportivo Premium</h1>
-            <p>Descubre nuestra colección exclusiva de productos deportivos de las mejores marcas</p>
-            <div class="search-container">
-                <input type="search" placeholder="Buscar productos...">
-                <button type="submit" class="search-button">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
-        </div>
+  <section class="hero">
+    <div class="hero-content">
+      <i class="fas fa-dumbbell hero-icon"></i>
+      <h1>SportZone</h1>
+      <p>Encuentra el equipo deportivo perfecto para ti</p>
     </div>
-  <!-- seccion de productos -->
-   <?php include 'logica/productos.php'; ?>
-   <div class="container my-5">
-  <h2 class="mb-4">Nuestros Productos</h2>
+  </section>
 
-  <!-- Filtros -->
-  <form method="GET" class="mb-4">
-    <div class="row">
-      <div class="col-md-4">
-        <label for="categoria">Categoría:</label>
-        <select name="categoria" id="categoria" class="form-control">
-          <option value="todos">Todas</option>
-          <?php
-          // Extraer todas las categorías únicas
-          $categorias = array_unique(array_column($productos, 'categoria'));
-          foreach ($categorias as $categoria) {
-            $selected = ($categoriaSeleccionada == $categoria) ? 'selected' : '';
-            echo "<option value='$categoria' $selected>$categoria</option>";
-          }
-          ?>
+  <div class="container">
+    <section class="filter-section">
+      <form method="get" action="product.php">
+        <label for="categoria" class="filter-label">Categoría:</label>
+        <select name="categoria" id="categoria" class="filter-select" onchange="this.form.submit()">
+          <option value="0">Todas las categorías</option>
+          <?php foreach ($categorias as $categoria): ?>
+            <option value="<?= htmlspecialchars($categoria['id_categoria']) ?>"
+              <?= $categoria_id == $categoria['id_categoria'] ? 'selected' : '' ?>>
+              <?= htmlspecialchars($categoria['nombre_categoria']) ?>
+            </option>
+          <?php endforeach; ?>
         </select>
-      </div>
+      </form>
+    </section>
 
-      <div class="col-md-4">
-        <label for="precio_max">Precio máximo:</label>
-        <input type="number" name="precio_max" id="precio_max" step="0.01" class="form-control"
-               value="<?= htmlspecialchars($precioMax) ?>">
-      </div>
+    <section class="products-section">
+      <h2 class="section-title">Nuestros Productos</h2>
 
-      <div class="col-md-4 align-self-end">
-        <button type="submit" class="btn btn-primary w-100">Aplicar Filtros</button>
-      </div>
-    </div>
-  </form>
-
-  <!-- Mostrar productos -->
-  <div class="row">
-    <?php if (empty($productosFiltrados)) : ?>
-      <div class="col-12">
-        <p>No se encontraron productos con los filtros aplicados.</p>
-      </div>
-    <?php else : ?>
-      <?php foreach ($productosFiltrados as $producto) : ?>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <img src="<?= $producto['imagen'] ?>" class="card-img-top" alt="<?= $producto['nombre'] ?>">
-            <div class="card-body">
-              <h5 class="card-title"><?= $producto['nombre'] ?></h5>
-              <p class="card-text"><strong>Categoría:</strong> <?= $producto['categoria'] ?></p>
-              <p class="card-text"><strong>Precio:</strong> $<?= number_format($producto['precio'], 2) ?></p>
+      <?php if (!empty($productos)): ?>
+        <div class="product-grid">
+          <?php foreach ($productos as $producto): ?>
+            <div class="product-card">
+              <img src="<?= htmlspecialchars($producto['imagen'] ?? 'img/default-product.jpg') ?>"
+                alt="<?= htmlspecialchars($producto['nombre_producto']) ?>"
+                class="product-img">
+              <h3 class="product-title"><?= htmlspecialchars($producto['nombre_producto']) ?></h3>
+              <p class="product-price">$<?= number_format($producto['precio_producto'], 2) ?></p>
+              <p class="product-stock <?= $producto['cantidad_producto'] < 10 ? 'stock-low' : '' ?>">
+                <?= $producto['cantidad_producto'] ?> unidades disponibles
+              </p>
+              <span class="category-tag">
+                <?= htmlspecialchars($producto['nombre_categoria']) ?>
+              </span>
+              <button class="add-to-cart">Añadir al carrito</button>
             </div>
-          </div>
+          <?php endforeach; ?>
         </div>
-      <?php endforeach; ?>
-    <?php endif; ?>
+      <?php else: ?>
+        <div class="no-products">
+          <p>No se encontraron productos en esta categoría.</p>
+        </div>
+      <?php endif; ?>
+    </section>
   </div>
-</div>
-
 </body>
 
 </html>
