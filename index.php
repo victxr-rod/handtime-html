@@ -43,7 +43,7 @@
     <nav class="menu">
       <a href="index.php">Inicio</a>
       <a href="product.php">Productos</a>
-      <a href="#">Deportes</a>
+      <a href="Deportes.php">Deportes</a>
       <a href="contact.php">Contacto</a>
       <a href="testimonial.php">Testimonios</a>
     </nav>
